@@ -59,5 +59,5 @@ while (counter < 7) {
 };
 */
 for (let counter = 0; counter <= 7; counter += 1){
-  console.log("#" + "\n");
+  console.log("#\n");
 }
