@@ -58,6 +58,12 @@ while (counter < 7) {
   mike += "# "
 };
 */
-for (let counter = 0; counter <= 7; counter += 1){
-  console.log("#\n");
+
+for (let i = 0; i <= 100; i += 1) {
+  if (i % 3 == 0) {
+    console.log("fizz");
+} else if (i % 5 == 0) {
+  console.log("buzz");
+} else {
+  console.log(i);
 }
