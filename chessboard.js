@@ -9,6 +9,9 @@ for (i = 0; i <= 8; i++)  {
 };
 */
 
+/* here's the 'working' board. still need to implement user changing sizeMax
+ can change overall structure instead of pre-written lines. feels like
+ cheating. */
 let b = ' # # # #'
 let w = '# # # # '
 let sizeMax = 8
