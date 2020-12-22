@@ -9,15 +9,13 @@ for (i = 0; i <= 8; i++)  {
 };
 */
 
-let b = '#'
-let w = ' '
+let b = ' # # # #'
+let w = '# # # # '
 let sizeMax = 8
 for (i = 0; i <= sizeMax ; i++)  {
   if ((i % 2 == 0)) {
     console.log(b);
-    b += " #"
   } if ((i % 2 != 0)) {
     console.log(w);
-    w += "# "
   }
 };
