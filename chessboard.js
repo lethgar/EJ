@@ -1,35 +1,22 @@
-/* let b = '#'
-let w = ' '
-let sizeMax = 8
-for (i = 0; i <= sizeMax ; i++)  {
-  if (i % 2 == 0) {
-  console.log(b += " " + '\n');
-} else if (i % 2 != 0)
-  console.log(w += "#" + '\n');
-} */
-
-/* here's the 'working' board. still need to implement user changing sizeMax
- can change overall structure instead of pre-written lines. feels like
- cheating.
-let b = ' # # # #'
-let w = '# # # # '
-let sizeMax = 8
-for (i = 0; i <= sizeMax ; i++)  {
-  if ((i % 2 == 0)) {
-    console.log(b);
-  } if ((i % 2 != 0)) {
-    console.log(w);
-  }
-};
-*/
+let ROWMAX = 8;
+let COLMAX = 8;
 let b = '#';
-let w = ' ';
-let sizeMax = 8;
-for (i = 0; i <= sizeMax ; i++)  {
-  while (i % 2 == 0) {
-    console.log(b);
-  };
-  while (i % 2 != 2) {
-    console.log("kill me");
+let w = '-';
+let stringVal = '';
+
+for (let i = 0; i < ROWMAX; i++) {
+    //console.log("In outer for on pass " + i)
+    for (let j = 0; j < COLMAX ; j ++) {
+    //console.log("In inner for on pass " + j)
+  if (i % 2 == 0) {
+     //console.log("I am in if part of test")
+    stringVal = (w + b);
+     //console.log("Even building stringVal: " + stringVal)
+} else {
+     //console.log("I am in else part of test")
+     stringVal = (b + w);
+     //console.log("Odd building stringVal: " + stringVal)
+   }
   }
-}
+  console.log(stringVal);
+};
