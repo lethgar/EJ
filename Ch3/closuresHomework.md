@@ -1,7 +1,9 @@
 # "What are closures all about?"
 ## (a self learning reference list)
 ### 1.08.21 by William O.  
-#### Authors listed where provided.  
+### Authors listed where provided.  
+
+#### 'A closure is the combination of a function and the lexical environment within which that function was declared.'  
 
 // Lexical Environment — The hidden part to understand Closures  
 Amandeep Singh 5.12.19  
