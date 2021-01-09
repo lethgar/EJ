@@ -5,6 +5,10 @@
 
 #### 'A closure is the combination of a function and the lexical environment within which that function was declared.'  
 
+##### 'Closure — A function that is a first-class citizen and has access to variables local to the scope in which it was defined.'  
+
+##### 'Whenever a function is defined inside another function, the inner function will have access to any variables that are declared in the outer.'  
+
 // Lexical Environment — The hidden part to understand Closures  
 Amandeep Singh 5.12.19  
 https://tinyurl.com/yy77cu65
