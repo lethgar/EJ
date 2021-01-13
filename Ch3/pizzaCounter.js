@@ -17,7 +17,7 @@ function pizza(toppingOne, toppingTwo) {
   }
 // alert user when out of pizza
   function alert() {
-    console.log(`Remaining pizza slices = ${slice}, time to call Dominos and order ${toppingTwo}!`);
+    console.log(`Remaining slices = ${slice}, time to call Dominos and order ${toppingTwo}!`);
   }
 
   return {eat, greetUser, alert}
