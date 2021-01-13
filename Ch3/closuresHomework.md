@@ -10,7 +10,7 @@
 ##### *'Whenever a function is defined inside another function, the inner function will have access to any variables that are declared in the outer.'*  
 
 ##### *'If we declare a function within this environment, that function has access to it's own scope, but also the parent's scope - that is, the lexical environment of the function in which it is declared'*   
-  
+
 // Javascript Closures Simplified  
 https://tinyurl.com/y4nlqdgt  
 
