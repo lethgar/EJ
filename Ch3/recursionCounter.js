@@ -1,17 +1,34 @@
 /*
   Print the integers 1-10 in the console. This is my initial test version.
   */
-// declare parent function counter
-function counter() {
-  // initiate variable 'num' to be used in counter
-  let num = 0;
-  if (num == 10) {
-    return 10;
+// declare function to print integers 'numPrint'
+function numPrint(num, max) {
+  // if statement base call to end final pass and return 10
+  if(num > max) {
+    return num;
   } else {
-    for (i = 0; i < 10; i++){
-      num += 1;
-      console.log(num);
-    }
+    // log current val of num and add 1 each pass
+  console.log(num);
+  num++;
+  // recursive call to numPrint
+  numPrint(num, max);
   }
 };
-counter();
+// call numPrint - user inputs min and max vals
+numPrint(0, 10);
+
+
+/*
+  The same in reverse
+
+function numPrint(num, min) {
+  if(num < min) {
+    return num;
+  } else {
+  console.log(num);
+  num--;
+  numPrint(num, min);
+  }
+};
+numPrint(10, 0);
+*/
