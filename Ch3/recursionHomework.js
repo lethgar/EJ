@@ -5,11 +5,12 @@
 
 function isEven(x){
   if (x % 2 == 0){
-    return x == x;
-    console.log(isEven());
-} else {
-   console.log(x != x);
-   return x / 2;
-  isEven(x);
+    return 'true';
+  } else if (x % 2 == 1) {
+    return 'false';
+  } else {
+    x -2;
+    isEven(x);
+  }
 }
-console.log(isEven(50));
+console.log(isEven(10));
