@@ -1,3 +1,5 @@
+require('./scripts.js')
+
 function repeat(n, action) {
   for (let i = 0; i < n; i++) {
     action(i);
@@ -33,7 +35,7 @@ const reducer = (accumulator, item) => {
 /* we give the reduce method our reducer function
   and our initial value */
 const total = numbers.reduce(reducer, initialValue)
-console.log(total);
+// console.log(total);
 
 const mapTest = numbers.map(element => element * 2)
 console.log(mapTest);
