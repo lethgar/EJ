@@ -14,20 +14,25 @@ require ('./photos.js')
 // How many of the photos are in the jpg format?
 // console.log(PHOTOS.reduce(acc, currentValue) => { return (currentValue.format == "jpg") ? acc++:acc },0 ))
 // Replace source names of 'Brian Capouch' with 'Brian L. Capouch'
-/*
+
 const insertMiddle = (name, initial) => {
   // Here's where stuff goes
   // Note: only works with 'plain' names, i.e. one first one last
   console.log("We got the right name!! And it is " + name)
   return "Foo"
 }
+*/
 console.log(PHOTOS.filter(entry => entry.source == "Brian Capouch" ).map(entry => insertMiddle(entry.source, "L")))
-  */
+
 
 // And then some things for you to work on as homework
 // 1. Add some entries with different keywords (some same) and filetypes (Shoot for 8)
 // 2. Run our "in-class" examples; make sure they work
+
 // 3. Print the names of all the different unique sources
-const sources = [...new Set(PHOTOS.map(photo => photo.source))]
+let sources = [...new Set(PHOTOS.map(photo => photo.source))]
 console.log(sources);
+
 // 4. Count how many images contain a given keyword
+let userQuery = "Lafayette"
+console.log(PHOTOS.filter(photo => photo.tags.includes(userQuery)).length)

@@ -39,3 +39,7 @@ const total = numbers.reduce(reducer, initialValue)
 
 const mapTest = numbers.map(element => element * 2)
 console.log(mapTest);
+
+let mySet = new Set()
+mySet.add(1)
+console.log(mySet);

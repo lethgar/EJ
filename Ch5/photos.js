@@ -1,4 +1,4 @@
-/*
+/* WILLS VERSION
   photos.js: Exports PHOTOS array
   For playing around with Ch 5 functionality
   Brian Capouch 4 February 2021
@@ -52,7 +52,7 @@ var PHOTOS = [
     note: "taken 6/6/20"
   },
   {
-    filename: "starCity2.jpg",
+    filename: "starCity2.tif",
     format: "jpg",
     filepath: "/home/brianc/IMAGES/LAFAYETTE/starCity2.jpg",
     description: "Front view of Star City Coffee from sidewalk",
@@ -61,7 +61,7 @@ var PHOTOS = [
     note: ""
   },
   {
-    filename: "prophetVillage.jpg",
+    filename: "prophetVillage.tif",
     format: "jpg",
     filepath: "/home/brianc/IMAGES/LAFAYETTE/prophetVillage.jpg",
     description: "Native village at P. Town state park, south facing",
@@ -70,7 +70,7 @@ var PHOTOS = [
     note: ""
   },
   {
-    filename: "yaquinaHeadLighthouse.png",
+    filename: "yaquinaHeadLighthouse.tif",
     format: "png",
     filepath: "/home/brianc/IMAGES/NEWPORT/yaquinaHeadLighthouse.png",
     description: "Foggy morning image of Yaquina Head lighthouse",
@@ -79,7 +79,7 @@ var PHOTOS = [
     note: ""
   },
   {
-    filename: "allisOuiatenon.jpg",
+    filename: "allisOuiatenon.tif",
     format: "jpg",
     filepath: "/home/brianc/IMAGES/LAFAYETTE/allisOuiatenon.jpg",
     description: "Vintage Allis WD45 spotted while hiking near Ouiatenon",
@@ -88,9 +88,9 @@ var PHOTOS = [
     note: "to be edited"
   },
   {
-    filename: "stjoeTheater.png",
+    filename: "stjoeTheater.tif",
     format: "png",
-    filepath: "/home/brianc/IMAGES/LAFAYETTE/stjoeTheater.png",
+    filepath: "/home/brianc/IMAGES/RENSSELAER/stjoeTheater.png",
     description: "Theater stage as seen from far left audience entrance",
     tags: "",
     source: "Brian Capouch",
