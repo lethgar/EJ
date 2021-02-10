@@ -21,7 +21,7 @@ const insertMiddle = (name, initial) => {
   // console.log("We got the right name!! And it is " + name)
   // return "Foo"
 }
-console.log(PHOTOS.filter(entry => entry.source == "Brian Capouch" ).map(entry => insertMiddle(entry.source, "L"))))
+// console.log(PHOTOS.filter(entry => entry.source == "Brian Capouch" ).map(entry => insertMiddle(entry.source, "L")
 
 
 // And then some things for you to work on as homework
@@ -31,6 +31,15 @@ console.log(PHOTOS.filter(entry => entry.source == "Brian Capouch" ).map(entry =
 // 3. Print the names of all the different unique sources
 let sources = [...new Set(PHOTOS.map(photo => photo.source))]
 console.log(sources);
+/*
+The new keyword does the following things:
+
+  Creates a blank, plain JavaScript object.
+  Adds a property to the new object (__proto__) that links to the constructor function's prototype object
+  Binds the newly created object instance as the this context
+   (i.e. all references to this in the constructor function now refer to the object created in the first step).
+  Returns this if the function doesn't return an object.
+*/
 
 // 4. Count how many images contain a given keyword
 let userQuery = "Lafayette"
