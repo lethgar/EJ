@@ -18,11 +18,10 @@ require ('./photos.js')
 const insertMiddle = (name, initial) => {
   // Here's where stuff goes
   // Note: only works with 'plain' names, i.e. one first one last
-  console.log("We got the right name!! And it is " + name)
-  return "Foo"
+  // console.log("We got the right name!! And it is " + name)
+  // return "Foo"
 }
-*/
-console.log(PHOTOS.filter(entry => entry.source == "Brian Capouch" ).map(entry => insertMiddle(entry.source, "L")))
+console.log(PHOTOS.filter(entry => entry.source == "Brian Capouch" ).map(entry => insertMiddle(entry.source, "L"))))
 
 
 // And then some things for you to work on as homework
