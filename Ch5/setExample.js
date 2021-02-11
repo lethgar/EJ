@@ -21,7 +21,7 @@ const Dune = {
   year: 1965
 }
 ourLibrary.add(Dune)
-// console.log(ourLibrary);
+//console.log(ourLibrary);
 
 // additional methods of note
 
@@ -30,10 +30,10 @@ ourLibrary.add(Dune)
 
 //  .has - returns boolean value based on Set
 //   containing a given input
-// console.log("Does our library contain 1984? " + ourLibrary.has(1984))
+//console.log("Does our library contain 1984? " + ourLibrary.has(1984))
 
 //  .size - returns number of elements in set
-// console.log(ourLibrary.size);
+//console.log(ourLibrary.size);
 
 //  .delete - removes specified item
 //ourLibrary.delete('Blood Meridian')

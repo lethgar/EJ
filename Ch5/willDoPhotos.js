@@ -29,8 +29,9 @@ const insertMiddle = (name, initial) => {
 // 2. Run our "in-class" examples; make sure they work
 
 // 3. Print the names of all the different unique sources
-let sources = [...new Set(PHOTOS.map(photo => photo.source))]
-console.log(sources);
+//console.log([...new Set(PHOTOS.map(photo => photo.source))]);
+// console.log([new Set(PHOTOS.map(photo => photo.source))]);
+
 /*
 The new keyword does the following things:
 
