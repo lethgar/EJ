@@ -15,14 +15,6 @@ require ('./photos.js')
 // console.log(PHOTOS.reduce(acc, currentValue) => { return (currentValue.format == "jpg") ? acc++:acc },0 ))
 // Replace source names of 'Brian Capouch' with 'Brian L. Capouch'
 
-const insertMiddle = (name, initial) => {
-  // Here's where stuff goes
-  // Note: only works with 'plain' names, i.e. one first one last
-  // console.log("We got the right name!! And it is " + name)
-  // return "Foo"
-}
-// console.log(PHOTOS.filter(entry => entry.source == "Brian Capouch" ).map(entry => insertMiddle(entry.source, "L")
-
 
 // And then some things for you to work on as homework
 // 1. Add some entries with different keywords (some same) and filetypes (Shoot for 8)
@@ -44,4 +36,24 @@ The new keyword does the following things:
 
 // 4. Count how many images contain a given keyword
 let userQuery = "Lafayette"
-console.log(PHOTOS.filter(photo => photo.tags.includes(userQuery)).length)
+//console.log(PHOTOS.filter(photo => photo.tags.includes(userQuery)).length)
+
+//1. Find all photo entries with an empty note string.
+//console.log(PHOTOS.filter(photo => photo.note.includes("")))
+
+//2. Find all photos with a 'Restaurant' tag.
+console.log(PHOTOS.filter(photo => photo.tags.includes('Restaurant')))
+
+//3. Find all Mike Tiede photos and change the tag to Merle Haggard
+
+//1. How many of the photos have notes attached?
+
+//2. Which image has the longest name?
+//var plorp = ["bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"];
+
+/*
+const longest = PHOTOS.reduce(function(a, b) {
+  return a.length > b.length ? a : b
+},'');
+console.log(longest)
+*/
